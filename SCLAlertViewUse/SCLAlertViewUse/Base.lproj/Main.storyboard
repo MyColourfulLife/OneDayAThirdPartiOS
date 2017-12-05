@@ -22,70 +22,77 @@
                                 <rect key="frame" x="20" y="80" width="335" height="567"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tvt-T9-Prt">
-                                        <rect key="frame" x="0.0" y="0.0" width="335" height="56.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="51.5"/>
                                         <state key="normal" title="showBasic"/>
                                         <connections>
                                             <action selector="getStartedClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ol6-Mg-BDa"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KSQ-6U-rV3">
+                                        <rect key="frame" x="0.0" y="51.5" width="335" height="51.5"/>
+                                        <state key="normal" title="showTitle"/>
+                                        <connections>
+                                            <action selector="showTitle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jKq-6i-J5J"/>
+                                        </connections>
+                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EKI-yj-eKS">
-                                        <rect key="frame" x="0.0" y="56.5" width="335" height="57"/>
+                                        <rect key="frame" x="0.0" y="103" width="335" height="51.5"/>
                                         <state key="normal" title="Show Success"/>
                                         <connections>
                                             <action selector="showSuccess:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V2m-aZ-c6J"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FKf-Lw-KT1">
-                                        <rect key="frame" x="0.0" y="113.5" width="335" height="56.5"/>
+                                        <rect key="frame" x="0.0" y="154.5" width="335" height="51.5"/>
                                         <state key="normal" title="Show Error"/>
                                         <connections>
                                             <action selector="showError:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iJC-Fo-UWq"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Io-ga-RMg">
-                                        <rect key="frame" x="0.0" y="170" width="335" height="57"/>
+                                        <rect key="frame" x="0.0" y="206" width="335" height="51.5"/>
                                         <state key="normal" title="Show Notice"/>
                                         <connections>
                                             <action selector="showNotice:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vtx-XU-RfP"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RAp-BO-0l9">
-                                        <rect key="frame" x="0.0" y="227" width="335" height="56.5"/>
+                                        <rect key="frame" x="0.0" y="257.5" width="335" height="52"/>
                                         <state key="normal" title="Show Warning"/>
                                         <connections>
                                             <action selector="showWarning:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z4s-3o-qfR"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dKU-gQ-uCr">
-                                        <rect key="frame" x="0.0" y="283.5" width="335" height="56.5"/>
+                                        <rect key="frame" x="0.0" y="309.5" width="335" height="51.5"/>
                                         <state key="normal" title="Show info"/>
                                         <connections>
                                             <action selector="showInfo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n9M-fx-uuZ"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fx1-3T-53P">
-                                        <rect key="frame" x="0.0" y="340" width="335" height="57"/>
+                                        <rect key="frame" x="0.0" y="361" width="335" height="51.5"/>
                                         <state key="normal" title="Show edit"/>
                                         <connections>
                                             <action selector="showEdit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NTp-JJ-xkJ"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h9j-tC-btu">
-                                        <rect key="frame" x="0.0" y="397" width="335" height="56.5"/>
+                                        <rect key="frame" x="0.0" y="412.5" width="335" height="51.5"/>
                                         <state key="normal" title="Show Custom Subview"/>
                                         <connections>
                                             <action selector="showCustomSubview:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kjJ-u6-NCo"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="klM-z2-Gfc">
-                                        <rect key="frame" x="0.0" y="453.5" width="335" height="57"/>
+                                        <rect key="frame" x="0.0" y="464" width="335" height="51.5"/>
                                         <state key="normal" title="Show Custom Alert"/>
                                         <connections>
                                             <action selector="showCustomAlert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e04-cy-9ZD"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vgJ-aR-jg4">
-                                        <rect key="frame" x="0.0" y="510.5" width="335" height="56.5"/>
+                                        <rect key="frame" x="0.0" y="515.5" width="335" height="51.5"/>
                                         <state key="normal" title="Show Wait"/>
                                         <connections>
                                             <action selector="showWait:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dck-aW-Tti"/>

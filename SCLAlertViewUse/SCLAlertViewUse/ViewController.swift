@@ -33,6 +33,12 @@ class ViewController: UIViewController {
         SCLAlertView().showInfo("Important info", subTitle: "You are so greate!")
     }
     
+    @IBAction func showTitle(_ sender: Any) {
+        let timeout = SCLAlertView.SCLTimeoutConfiguration(timeoutValue: 2.0, timeoutAction: {
+            print("well done printed after two seconds")
+        })
+        SCLAlertView().showTitle("Congratulations", subTitle: "Operation successfully completed.", timeout: timeout, completeText: "Well Done", style: .success)
+    }
     
     @IBAction func showSuccess(_ sender: UIButton) {
         let alert = SCLAlertView()
