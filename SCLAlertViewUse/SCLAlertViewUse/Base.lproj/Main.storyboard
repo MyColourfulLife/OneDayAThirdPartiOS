@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SCLAlertViewUse" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ynZ-Su-XZp">
+                                <rect key="frame" x="20" y="80" width="335" height="567"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tvt-T9-Prt">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="56.5"/>
+                                        <state key="normal" title="showBasic"/>
+                                        <connections>
+                                            <action selector="getStartedClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ol6-Mg-BDa"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EKI-yj-eKS">
+                                        <rect key="frame" x="0.0" y="56.5" width="335" height="57"/>
+                                        <state key="normal" title="Show Success"/>
+                                        <connections>
+                                            <action selector="showSuccess:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V2m-aZ-c6J"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FKf-Lw-KT1">
+                                        <rect key="frame" x="0.0" y="113.5" width="335" height="56.5"/>
+                                        <state key="normal" title="Show Error"/>
+                                        <connections>
+                                            <action selector="showError:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iJC-Fo-UWq"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Io-ga-RMg">
+                                        <rect key="frame" x="0.0" y="170" width="335" height="57"/>
+                                        <state key="normal" title="Show Notice"/>
+                                        <connections>
+                                            <action selector="showNotice:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vtx-XU-RfP"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RAp-BO-0l9">
+                                        <rect key="frame" x="0.0" y="227" width="335" height="56.5"/>
+                                        <state key="normal" title="Show Warning"/>
+                                        <connections>
+                                            <action selector="showWarning:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z4s-3o-qfR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dKU-gQ-uCr">
+                                        <rect key="frame" x="0.0" y="283.5" width="335" height="56.5"/>
+                                        <state key="normal" title="Show info"/>
+                                        <connections>
+                                            <action selector="showInfo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n9M-fx-uuZ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fx1-3T-53P">
+                                        <rect key="frame" x="0.0" y="340" width="335" height="57"/>
+                                        <state key="normal" title="Show edit"/>
+                                        <connections>
+                                            <action selector="showEdit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NTp-JJ-xkJ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h9j-tC-btu">
+                                        <rect key="frame" x="0.0" y="397" width="335" height="56.5"/>
+                                        <state key="normal" title="Show Custom Subview"/>
+                                        <connections>
+                                            <action selector="showCustomSubview:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kjJ-u6-NCo"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="klM-z2-Gfc">
+                                        <rect key="frame" x="0.0" y="453.5" width="335" height="57"/>
+                                        <state key="normal" title="Show Custom Alert"/>
+                                        <connections>
+                                            <action selector="showCustomAlert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e04-cy-9ZD"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vgJ-aR-jg4">
+                                        <rect key="frame" x="0.0" y="510.5" width="335" height="56.5"/>
+                                        <state key="normal" title="Show Wait"/>
+                                        <connections>
+                                            <action selector="showWait:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dck-aW-Tti"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ynZ-Su-XZp" secondAttribute="trailing" constant="20" id="BFb-y5-pHk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ynZ-Su-XZp" secondAttribute="bottom" constant="20" id="a4p-To-GgK"/>
+                            <constraint firstItem="ynZ-Su-XZp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="dx3-jP-WAo"/>
+                            <constraint firstItem="ynZ-Su-XZp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="pQS-iR-AK1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
