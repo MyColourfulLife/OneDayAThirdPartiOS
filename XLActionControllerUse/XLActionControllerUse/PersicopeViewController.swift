@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import XLActionController
+
 
 class PersicopeViewController: UIViewController {
 
@@ -34,7 +36,14 @@ class PersicopeViewController: UIViewController {
     }
     */
     @IBAction func tapGestureDidRecognize(_ sender: UITapGestureRecognizer) {
-        
+        let actionController = PeriscopeActionController()
+        actionController.headerData = "Are you sure you want to block?"
+        actionController.addAction(Action("Block user", style: .destructive, handler: { action in
+        }))
+        actionController.addSection(PeriscopeSection())
+        actionController.addAction(Action("Cancel", style: .cancel, handler: { action in
+        }))
+        present(actionController, animated: true, completion: nil)
     }
 
 }

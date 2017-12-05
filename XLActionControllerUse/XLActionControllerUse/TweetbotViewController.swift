@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import XLActionController
 
 class TweetbotViewController: UIViewController {
 
@@ -34,7 +35,20 @@ class TweetbotViewController: UIViewController {
     }
     */
     @IBAction func tapGestureDidRecognize(_ sender: UITapGestureRecognizer) {
+        let actionController = TweetbotActionController()
         
+        actionController.addAction(Action("View Details", style: .default, handler: { action in
+        }))
+        actionController.addAction(Action("View Retweets", style: .default, handler: { action in
+        }))
+        actionController.addAction(Action("View in Favstar", style: .default, handler: { action in
+        }))
+        actionController.addAction(Action("Translate", style: .default, executeImmediatelyOnTouch: true, handler: { action in
+        }))
+        actionController.addSection(Section())
+        actionController.addAction(Action("Cancel", style: .cancel, handler:nil))
+        
+        present(actionController, animated: true, completion: nil)
     }
 
 }

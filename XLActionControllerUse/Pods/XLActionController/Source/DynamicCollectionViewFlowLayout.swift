@@ -89,8 +89,9 @@ open class DynamicCollectionViewFlowLayout: UICollectionViewFlowLayout {
         guard let animator = dynamicAnimator else {
             return super.layoutAttributesForElements(in: rect)
         }
-        
-        return animator.items(in: rect) as? [UICollectionViewLayoutAttributes]
+        return (animator.items(in: rect) as [AnyObject]).filter{ $0 is UICollectionViewLayoutAttributes }.map{ $0 as! UICollectionViewLayoutAttributes }
+
+//        return animator.items(in: rect) as? [UICollectionViewLayoutAttributes]
     }
     
     override open func layoutAttributesForItem(at indexPath: IndexPath) -> UICollectionViewLayoutAttributes? {

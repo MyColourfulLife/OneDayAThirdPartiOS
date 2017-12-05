@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18943B32F1D8331B53358DAF /* Pods_XLActionControllerUse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C2B523EED37B542BF3B4F7 /* Pods_XLActionControllerUse.framework */; };
 		D1366B471FD6928C004C1CFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1366B461FD6928C004C1CFE /* AppDelegate.swift */; };
 		D1366B491FD6928C004C1CFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1366B481FD6928C004C1CFE /* ViewController.swift */; };
 		D1366B4C1FD6928C004C1CFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1366B4A1FD6928C004C1CFE /* Main.storyboard */; };
@@ -20,13 +19,11 @@
 		D1366B631FD69B99004C1CFE /* TweetbotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1366B621FD69B99004C1CFE /* TweetbotViewController.swift */; };
 		D1366B651FD69BA2004C1CFE /* TwiiterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1366B641FD69BA2004C1CFE /* TwiiterViewController.swift */; };
 		D1366B671FD69BAB004C1CFE /* SkypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1366B661FD69BAB004C1CFE /* SkypeViewController.swift */; };
-		D1366B6A1FD6A8BA004C1CFE /* Spotify.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1366B691FD6A8BA004C1CFE /* Spotify.swift */; };
-		D1366B6C1FD6AA2D004C1CFE /* ActionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1366B6B1FD6AA2D004C1CFE /* ActionData.swift */; };
-		D1366B6E1FD6B5F5004C1CFE /* SpotifyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1366B6D1FD6B5F5004C1CFE /* SpotifyCell.xib */; };
+		D1366B721FD6F7F1004C1CFE /* Pods_XLActionControllerUse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1366B741FD6F7F1004C1CFE /* Pods_XLActionControllerUse.framework */; };
+		D1366B731FD6F7F1004C1CFE /* XLActionController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1366B751FD6F7F1004C1CFE /* XLActionController.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A8C2B523EED37B542BF3B4F7 /* Pods_XLActionControllerUse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XLActionControllerUse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B883CF17599ADE8DA82F43F4 /* Pods-XLActionControllerUse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLActionControllerUse.release.xcconfig"; path = "Pods/Target Support Files/Pods-XLActionControllerUse/Pods-XLActionControllerUse.release.xcconfig"; sourceTree = "<group>"; };
 		D1366B431FD6928C004C1CFE /* XLActionControllerUse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLActionControllerUse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1366B461FD6928C004C1CFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,9 +39,8 @@
 		D1366B621FD69B99004C1CFE /* TweetbotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetbotViewController.swift; sourceTree = "<group>"; };
 		D1366B641FD69BA2004C1CFE /* TwiiterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwiiterViewController.swift; sourceTree = "<group>"; };
 		D1366B661FD69BAB004C1CFE /* SkypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkypeViewController.swift; sourceTree = "<group>"; };
-		D1366B691FD6A8BA004C1CFE /* Spotify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spotify.swift; sourceTree = "<group>"; };
-		D1366B6B1FD6AA2D004C1CFE /* ActionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionData.swift; sourceTree = "<group>"; };
-		D1366B6D1FD6B5F5004C1CFE /* SpotifyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpotifyCell.xib; sourceTree = "<group>"; };
+		D1366B741FD6F7F1004C1CFE /* Pods_XLActionControllerUse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_XLActionControllerUse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1366B751FD6F7F1004C1CFE /* XLActionController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XLActionController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFDDA6EB38857E793B77EFDE /* Pods-XLActionControllerUse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLActionControllerUse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XLActionControllerUse/Pods-XLActionControllerUse.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -53,7 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18943B32F1D8331B53358DAF /* Pods_XLActionControllerUse.framework in Frameworks */,
+				D1366B721FD6F7F1004C1CFE /* Pods_XLActionControllerUse.framework in Frameworks */,
+				D1366B731FD6F7F1004C1CFE /* XLActionController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,7 +69,8 @@
 		AD15A49C36767925A982B5C1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A8C2B523EED37B542BF3B4F7 /* Pods_XLActionControllerUse.framework */,
+				D1366B741FD6F7F1004C1CFE /* Pods_XLActionControllerUse.framework */,
+				D1366B751FD6F7F1004C1CFE /* XLActionController.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -99,7 +97,6 @@
 			isa = PBXGroup;
 			children = (
 				D1366B461FD6928C004C1CFE /* AppDelegate.swift */,
-				D1366B681FD6A870004C1CFE /* CustomActionController */,
 				D1366B481FD6928C004C1CFE /* ViewController.swift */,
 				D1366B5A1FD697B7004C1CFE /* MainViewController.swift */,
 				D1366B5C1FD69B5B004C1CFE /* SpotifyViewController.swift */,
@@ -114,16 +111,6 @@
 				D1366B521FD6928C004C1CFE /* Info.plist */,
 			);
 			path = XLActionControllerUse;
-			sourceTree = "<group>";
-		};
-		D1366B681FD6A870004C1CFE /* CustomActionController */ = {
-			isa = PBXGroup;
-			children = (
-				D1366B691FD6A8BA004C1CFE /* Spotify.swift */,
-				D1366B6D1FD6B5F5004C1CFE /* SpotifyCell.xib */,
-				D1366B6B1FD6AA2D004C1CFE /* ActionData.swift */,
-			);
-			path = CustomActionController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,7 +177,6 @@
 			files = (
 				D1366B511FD6928C004C1CFE /* LaunchScreen.storyboard in Resources */,
 				D1366B4E1FD6928C004C1CFE /* Assets.xcassets in Resources */,
-				D1366B6E1FD6B5F5004C1CFE /* SpotifyCell.xib in Resources */,
 				D1366B4C1FD6928C004C1CFE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,8 +248,6 @@
 				D1366B491FD6928C004C1CFE /* ViewController.swift in Sources */,
 				D1366B5F1FD69B6B004C1CFE /* YouTubeViewController.swift in Sources */,
 				D1366B651FD69BA2004C1CFE /* TwiiterViewController.swift in Sources */,
-				D1366B6A1FD6A8BA004C1CFE /* Spotify.swift in Sources */,
-				D1366B6C1FD6AA2D004C1CFE /* ActionData.swift in Sources */,
 				D1366B471FD6928C004C1CFE /* AppDelegate.swift in Sources */,
 				D1366B5D1FD69B5B004C1CFE /* SpotifyViewController.swift in Sources */,
 				D1366B671FD69BAB004C1CFE /* SkypeViewController.swift in Sources */,

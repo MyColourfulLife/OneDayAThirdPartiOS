@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import XLActionController
+
 
 class TwiiterViewController: UIViewController {
 
@@ -24,16 +26,15 @@ class TwiiterViewController: UIViewController {
         navigationController?.popViewController(animated: true)
     }
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
     @IBAction func tapGestureDidRecognize(_ sender: UITapGestureRecognizer) {
+        
+        let actionController = TwitterActionController()
+        actionController.addAction(Action(ActionData(title: "Xmartlabs", subtitle: "@xmartlabs", image: UIImage(named: "tw-xmartlabs")!), style: .default, handler: { action in
+        }))
+        actionController.addAction(Action(ActionData(title: "Miguel", subtitle: "@remer88", image: UIImage(named: "tw-remer")!), style: .default, handler: { action in
+        }))
+        actionController.headerData = "Accounts"
+        present(actionController, animated: true, completion: nil)
         
     }
 

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import XLActionController
 
 class SkypeViewController: UIViewController {
 
@@ -37,7 +38,16 @@ class SkypeViewController: UIViewController {
     }
     */
     @IBAction func tapGestureDidRecognize(_ sender: UITapGestureRecognizer) {
+        let actionController = SkypeActionController()
+        actionController.addAction(Action("Take photo", style: .default, handler: { action in
+        }))
+        actionController.addAction(Action("Choose existing photo", style: .default, handler: { action in
+        }))
+        actionController.addAction(Action("Remove profile picture", style: .default, handler: { action in
+        }))
+        actionController.addAction(Action("Cancel", style: .cancel, handler: nil))
         
+        present(actionController, animated: true, completion: nil)
     }
 
 }
